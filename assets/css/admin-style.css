@@ -1,0 +1,76 @@
+/* Admin Styles for DEAM Events Manager */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.deam-metabox-wrapper,
+.deam-gallery-wrapper {
+    font-family: 'Poppins', sans-serif;
+}
+
+.deam-metabox-wrapper label {
+    font-weight: 600;
+    color: #0048a5;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.deam-metabox-wrapper input {
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.deam-gallery-wrapper {
+    margin-top: 10px;
+}
+
+.deam-gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.deam-gallery-image {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #f68511;
+    border-radius: 4px;
+    padding: 5px;
+    background: #fff;
+}
+
+.deam-gallery-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.deam-gallery-image .remove-gallery-image {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #0048a5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#deam_add_gallery_images {
+    background: #f68511;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#deam_add_gallery_images:hover {
+    background: #0048a5;
+}
